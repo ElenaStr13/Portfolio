@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main: #698af7;
+    --sub: #9be9a8;
+    --dark: #381f92;
+}
+
+body {
+    background: linear-gradient(50deg, var(--main) -10%, var(--dark) 110%);
+    font-size: 3vh;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding-top: 40vh;
+    color: rgb(226, 228, 144);
+    text-transform: uppercase;
+    font-family: "Kufam";
+}
+
+a {
+    display: inline-block;
+    padding: 0.9em 1.4em;
+    margin: 1em;
+    font-size: 0.7em;
+    background: rgb(226, 228, 144);
+    color: var(--dark);
+    border-radius: 10px;
+    text-decoration: none;
+}
