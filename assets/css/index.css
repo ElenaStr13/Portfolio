@@ -1,0 +1,146 @@
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Kufam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+ul,
+li {
+  list-style: none;
+  padding: 5px;
+}
+.header {
+  height: 120px;
+  padding: 0 20px;
+  background-color: #d4ece1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-list {
+  display: flex;
+}
+.basket {
+  background-size: 100%;
+  height: 5rem;
+  width: 5rem;
+  background-image: url(../img/basket.jpg);
+}
+.basket-count {
+  background-color: #e0aec9;
+  font-size: 20px;  
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.main {
+  flex: 1 0 auto;
+  min-height: 100%;
+  background-color: rgb(241, 233, 238);
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  margin-right: 2vw;
+  font-family: "Sofia", sans-serif;
+  font-size: 20px;
+}
+.nav-link:hover {
+  border: 1px solid #e0aec9;
+  border-radius: 12px;
+  height: 3vh;
+  background-color: #e0aec9;
+}
+.info-text {
+  padding-right: 0.5rem;
+}
+.text {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+.Cake-title {
+  max-width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 2rem;
+  justify-items: center;
+}
+.Cake-title-kids {
+  max-width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2rem;
+  justify-items: center;
+}
+
+.item-title {
+  font-weight: 700;
+}
+.kidGirl {
+  background-image: url(../img/kidsGirl.jpg);
+}
+.happyb {
+  background-image: url(../img/HBgirljpg.jpg);
+}
+.bread {
+  background-image: url(../img/forMan.jpg);
+}
+.wedding {
+  background-image: url(../img/weddingBlue.jpg);
+}
+.kidGirl,
+.happyb,
+.bread,
+.wedding {
+  background-size: 100%;
+  height: 318px;
+  width: 239px;
+}
+
+.kidGirl-name,
+.happyb-name,
+.bread-name,
+.wedding-name {
+  text-decoration: none;
+  color: black;
+  font-family: "Kufam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.kidGirl-name:hover,
+.happyb-name:hover,
+.bread-name:hover,
+.wedding-name:hover {
+  color: #ee7070;
+}
+
+.down {
+  background-color: #d4ece1;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  flex: 0 0 auto;
+}
+.icon {
+  height: 30%;
+}
+.down-segment {
+  display: flex;
+  align-items: center;
+}
