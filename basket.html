@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <link rel="stylesheet" href="./assets/css/additional.css" />
+  <title>diplom</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <a class="nav-link" href="./index.html"><img src="./assets/img/logo-konditera 1.png" alt="logo" /></a>
+    </div>
+    <nav class="navbar menu">
+      <ul class="menu-list">
+        <li class="menu-item">
+          <a class="nav-link" href="./index.html">На головну</a>
+        </li>
+        <li class="menu-item">
+          <a class="nav-link" href="./index.html">Торти</a>
+        </li>
+        <li class="menu-item">
+          <a class="nav-link" href="./filling.html">Начинки</a>
+        </li>
+        <li class="menu-item">
+          <a class="nav-link" href="./check.html">Оплата</a>
+        </li>
+        <li class="menu-item">
+          <a class="nav-link" href="#down">Контакти</a>
+        </li>
+        <li class="menu-item"></li>
+      </ul>
+    </nav>
+    <a href="./basket.html" class="basket">
+      <span class="basket-count">0</span>
+  </a>
+    </header>
+  <div class="wrapper">
+    <div class="main">
+      <div class="empty">Тут поки нічого немає</div>
+      <div class="basket-body">
+        
+        
+         <!--<div class="cart-wrapper">
+<img src="./assets/img/HBblue.jpg" alt="kidsCake" class="order-img" />
+ <button id="remove-button">x</button>
+  <div class="order-title">Блакитна дівчина</div>
+  <div class="cart-filling">
+  <label for="filling" class="filling-order">Начинки:</label><br>
+  <select id="filling" required>
+    <option class="filling" value="hunny">Медові коржі з вершковим кремом</option>
+    <option class="filling" value="hunnyCherry">Медові коржі з вершковим кремом та вишнею</option>
+    <option class="filling" value="bananBiskvit">Бісквіт з вершковим кремом, ананасом та/чи бананом</option>
+    <option class="filling" value="biskvit">Бісквіт з вершковим кремом</option>
+    <option class="filling" value="napoleon">Наполеон</option>
+    <option class="filling" value="biskvitCherry">Бісквіт з вишнею</option>
+    <option class="filling" value="teramisu">Терамісу</option>
+    <option class="filling" value="redBarhat">Червоний бархат</option>
+    <option class="filling" value="yourChange">ваш варіант</option>
+  </select>
+</div>
+<div class="cart-weight">
+  <label for="weight" class="">Вага:</label><br>
+  <select id="weight" required class="weight-order">
+    <option class="weight-li" value="1">1</option>
+    <option class="weight-li" value="1.5">1.5</option>
+    <option class="weight-li" value="2">2</option>
+    <option class="weight-li" value="2.5">2.5</option>
+    <option class="weight-li" value="3">3</option>
+    <option class="weight-li" value="3.5">3.5</option>
+    <option class="weight-li" value="4">4</option>
+    <option class="weight-li" value="4.5">4.5</option>
+    <option class="weight-li" value="5">5</option>
+    <option class="weight-li" value="5.5">5.5</option>
+    <option class="weight-li" value="6">6</option>
+    <option class="weight-li" value="6.5">6.5</option>
+    <option class="weight-li" value="7">7</option>
+  </select>
+</div>
+<div class="price">
+  <label for="price">Ціна</label><br>
+  <input type="text" id="price" class="price-order" value="">
+</div>
+</div>
+-->
+     
+      </div>
+      <form name="info" method="POST" action="./php/mail.php" class="form-order"></form>
+      <div class="order-data">
+        <label for="name">Ваше ім'я</label>
+        <input placeholder="Iм'я" name="name" type="text" class="formInput">
+        <label for="phone">Номер телефону</label>
+        <input placeholder="+380505050500" name="phone" type="tel" class="formInput">
+        <label for="email">Електронна пошта</label>
+        <input placeholder="email@email.com" name="email" type="email" class="formInput">
+        <input class='button' name="cancel" type="reset" value="Відміна">
+        <input class='button' name="btnSubmit" type="button" value="Оформити" id="checkout">
+      </div>
+    </form>
+    </div>
+  </div>
+  </div>
+  <div data-custom-icon-url="VALUE" 
+    class="ec-cart-widget">
+  </div>
+  
+  <footer class="down">
+    <div class="down-segment">Відгуки</div>
+    <div class="down-segment">
+      <div>Контакти:</div>
+      <img src="./assets/img/post.png" alt="post" class="icon" />
+      <div>estrateluk@yahoo.com</div>
+    </div>
+    <div class="down-segment">
+      <img src="./assets/img/instagram.png" alt="instagramm" class="icon" />
+      <div>elena_brow_lashmaker</div>
+    </div>
+    <div class="down-segment">
+      <img src="./assets/img/telegram.jpg" alt="telegram" class="icon" />
+      <div>@Elena Strateluk</div>
+    </div>
+  </footer>
+  </div>
+  <script src="./assets/js/basket.js"></script>
+</body>
+
+</html>
