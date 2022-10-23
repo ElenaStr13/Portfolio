@@ -175,7 +175,7 @@ li {
 .menu:hover .menu-list{display: flex;}
 .menu:visited .menu-list{display: flex;}
 ul, li {
- padding: 1px;
+ padding: 0.1px;
 }
 .nav-link {
   font-size: 8px;
