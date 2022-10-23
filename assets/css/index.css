@@ -145,9 +145,10 @@ li {
   display: flex;
   align-items: center;
 }
-.navlink-icon {
+.menu-img {
   display: none;
 }
+
 
 @media screen and  (max-width: 768px) {
   .Cake-title {
@@ -158,14 +159,27 @@ li {
     grid-template-columns: repeat(1, 1fr);
     grid-template-columns: repeat(1, 1fr);
   }
-  .navlink-icon {
-    /*display: inline-block;
-    background-image: url("../img/menu.png"); */ 
+  .menu-img {
+    display: inline-block;
+    height: 4vh;
+}
+.menu-list {
+  flex-direction: column;
+  display: none;
+  margin-top: 0.1px;
+  margin-bottom: 0.1px;
+}
+.logo {
+  display: none;
+}
+.menu:hover .menu-list{display: flex;}
+.menu:visited .menu-list{display: flex;}
+ul, li {
+ padding: 1px;
 }
 .nav-link {
-  font-size: 10px;
-  margin-right: 0.2vw;
-
+  font-size: 8px;
+  margin-right: 0.1vw;
 }
 .basket {
   background-size: 100%;
